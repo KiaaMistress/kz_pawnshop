@@ -23,8 +23,8 @@ Supports **Ox Inventory**, **qb-target**, and multiple notification systems (`ox
 2. Ensure dependencies are installed:
 - QBCore
 - Ox Inventory
-- qb-target
-- lib/ox_lib or lation_ui for notifications
+- QB Target
+- ox_lib or lation_ui for notifications
 3. Add to your server.cfg:
 - ensure kz_pawnshop
 
@@ -32,4 +32,5 @@ Credits
 - Author: KiaaMistress
 
 Inspired by QBCore and FiveM community resources.
+
 
