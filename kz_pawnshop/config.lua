@@ -1,6 +1,6 @@
 Config = {}
 
-Config.NotifySystem = 'lation_ui'  -- Change this to 'ox_lib' or 'lation_ui' as needed
+Config.NotifySystem = 'ox_lib'  -- Change this to 'ox_lib' or 'lation_ui' as needed
 
 -- Pawn Shop locations
 Config.PawnLocation = {
@@ -35,18 +35,10 @@ Config.PawnItems = {
     { item = 'rolex',            label = 'Golden Watch',     price = math.random(50,100) },
     { item = '10kgoldchain',     label = '10k Gold Chain',   price = math.random(50,100) },
     { item = 'tablet',           label = 'Tablet',           price = math.random(50,100) },
-    { item = 'iphone',           label = 'iPhone',           price = math.random(50,100) },
-    { item = 'samsungphone',     label = 'Samsung',          price = math.random(50,100) },
-    { item = 'laptop',           label = 'Laptop',           price = math.random(50,100) },
-    { item = 'fitbit',           label = 'Fitbit',           price = math.random(50,100) },
-    { item = 'x_artpiece',       label = 'Art Piece',        price = math.random(100,300) },
-    { item = 'x_coffeemaker',    label = 'Coffee Maker',     price = math.random(50,100) },
-    { item = 'x_guitar',         label = 'Guitar',           price = math.random(50,100) },
-    { item = 'x_microwave',      label = 'Microwave',        price = math.random(50,100) },
-    { item = 'x_musicequipment', label = 'Music Equipment',  price = math.random(50,100) },
-    { item = 'x_painting',       label = 'Painting',         price = math.random(100,200) },
-    { item = 'x_painting2',      label = 'Painting 2',       price = math.random(100,200) },
-    { item = 'x_pcequipment',    label = 'PC',               price = math.random(50,100) },
-    { item = 'x_suitcase',       label = 'Suitcase',         price = math.random(50,100) }
+    -- { item = 'iphone',           label = 'iPhone',           price = math.random(50,100) },
+    -- { item = 'samsungphone',     label = 'Samsung',          price = math.random(50,100) },
+    -- { item = 'laptop',           label = 'Laptop',           price = math.random(50,100) },
+    -- { item = 'fitbit',           label = 'Fitbit',           price = math.random(50,100) },
 }
+
 
