@@ -2,14 +2,13 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'KiaaMistress'
-description 'Pawn Shop Script'
+description 'KZ Pawnshop for QBCore'
 version '1.0.0'
 
 lua54 'yes'
 
 shared_scripts {
-    '@ox_lib/init.lua',
-    '@lation_ui/init.lua',
+    '@qb-core/import.lua'
     'config.lua'
 }
 
@@ -18,12 +17,12 @@ client_scripts {
 }
 
 server_scripts {
-    '@oxmysql/lib/MySQL.lua', -- keep only if your qb-core uses it
     'server/server.lua'
 }
 
 dependencies {
-    'ox_lib',
     'ox_inventory',
-    'qb-core'
+    'qb-core',
+    'qb-target',
 }
+
