@@ -1,24 +1,35 @@
-# KZ Pawnshop Script
+# KZ Pawnshop - QBCore / FiveM
 
-A fully integrated pawnshop script for **QBCore**
+A fully-featured pawnshop resource for **QBCore** servers.  
+Supports **Ox Inventory**, **qb-target**, and multiple notification systems (`ox_lib`, `lation_ui`).
 
 ---
 
 ## Features
 
-- Supports **qb-menu** or **ox_lib** for the pawnshop menu  
-- Supports **qb-target** or **ox_target** for interactions  
-- Fallback **marker + keypress** if no target system is installed  
-- Players can **sell all of an item** or **choose quantity**  
-- Configurable **blip** (toggle on/off, customize name, sprite, color, scale)  
-- Fully expandable with **multiple locations** and **sellable items**  
+- Sell items for cash or bank deposit.
+- Configurable pawnable items with **dynamic price ranges** and **max sell limits**.
+- Exploit detection and distance checks to prevent selling outside pawn shop zones.
+- Fully integrated with **qb-target** for interactive zones.
+- Unified notifications: works with **ox_lib**, or **lation_ui**.
+- Sell menu auto-closes after a successful sale.
+- Configurable pawn shop hours.
 
 ---
 
 ## Installation
 
-1. Place the resource folder (e.g., `kz_pawnshop`) in your server’s `resources` folder.  
-2. Add the following line to your `server.cfg`:
+1. Place the resource in your resources folder, e.g.:
+2. Ensure dependencies are installed:
+- QBCore
+- Ox Inventory
+- qb-target
+- lib/ox_lib or lation_ui for notifications
+3. Add to your server.cfg:
+- ensure kz_pawnshop
 
-```ini
-ensure kz_pawnshop
+Credits
+- Author: KiaaMistress
+
+Inspired by QBCore and FiveM community resources.
+
